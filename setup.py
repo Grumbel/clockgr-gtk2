@@ -29,7 +29,7 @@ setup(
     entry_points={
         'console_scripts': [],
         'gui_scripts': [
-            'clockgr-gtk = clockgr_gtk.clock:main_entrypoint'
+            'clockgr-gtk2 = clockgr_gtk.clock:main_entrypoint'
         ]
     },
     long_description=("clockgr is a simple fullscreen clock for"
